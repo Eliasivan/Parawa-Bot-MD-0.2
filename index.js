@@ -20,7 +20,7 @@ font: 'block',
 align: 'center',
 colors: ['magenta', 'cyan']
 })
-say(`Bot: ${name}\nVersion: 1.0.5\nCreador: kenn ~ Zam\nNumero: +51 902 247 905\nEmail: jjdjf7425@gmail.com`, {
+say(`Bot: ${name}\nVersion: 1.0.5\nCreador: kenn ~ pit\nNumero: +51 902 247 905\nEmail: jjdjf7425@gmail.com`, {
 font: 'console',
 gradient: ['blue', 'magenta']
 })
