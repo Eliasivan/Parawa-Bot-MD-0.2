@@ -34,7 +34,7 @@ before: `╭━━━〔 U S U A R I O 〕━━━◉
 ┃
 ├━━━〔 I N F O 〕━━━◉
 ┃╭──────────────
-┃┃ *Creador:* Azami
+┃┃ *Creador:* 𝗞𝗘𝗡𝗡
 ┃┃ *Tiempo Activo:* %muptime
 ┃┃ *Registrados:* %rtotalreg de %totalreg usuarios
 ┃╰────────────── 
