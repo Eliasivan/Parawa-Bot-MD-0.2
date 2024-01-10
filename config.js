@@ -27,7 +27,7 @@ global.baileys = '@whiskeysockets/baileys'
 global.lenguaje = 'Español'
 global.menudi = ['⛶','❏','⫹⫺']
 global.dev = '𝗢𝗡𝗬𝗫 𝗕𝗬 𝗞𝗘𝗡𝗡'
-global.devnum = '𝗢𝗡𝗬𝗫 𝗕𝗬 𝗞𝗘𝗡𝗡'
+global.devnum = '𝗢𝗡𝗬𝗫'
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => { unwatchFile(file)
