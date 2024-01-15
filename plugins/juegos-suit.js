@@ -9,7 +9,7 @@ const handler = async (m, {conn, usedPrefix, text}) => {
   if (!m.mentionedJid[0]) return m.reply(textquien, m.chat, {mentions: conn.parseMention(textquien)});
   if (Object.values(conn.suit).find((room) => room.id.startsWith('suit') && [room.p, room.p2].includes(m.mentionedJid[0]))) throw `*⚠️ ESPERA A QUE TERMINE DE JUGAR*`
   const id = 'suit_' + new Date() * 1;
-  const caption = `🧃 SUIT - CURIOSITY\n\n• @${m.sender.split`@`[0]} DESAFÍA A @${m.mentionedJid[0].split`@`[0]} EN UN PVP\n*🥤 ESCRIBE "aceptar" PARA JUGAR*\n🥤 ESCRIBE "rechazar" PARA NO JUGAR\nrespondiendo al mensaje`
+  const caption = `𝗢𝗡𝗬𝗫\n\n• @${m.sender.split`@`[0]} DESAFÍA A @${m.mentionedJid[0].split`@`[0]} EN UN PVP\n*🥤 ESCRIBE "aceptar" PARA JUGAR*\n🥤 ESCRIBE "rechazar" PARA NO JUGAR\nrespondiendo al mensaje`
   const imgplaygame = `https://www.merca2.es/wp-content/uploads/2020/05/Piedra-papel-o-tijera-0003318_1584-825x259.jpeg`;
   conn.suit[id] = {
     chat: await conn.sendMessage(m.chat, {text: caption}, {mentions: await conn.parseMention(caption)}),
@@ -28,4 +28,4 @@ handler.command = /^pvp|suit(pvp)?$/i;
 handler.group = true;
 handler.game = true;
 export default handler;
-    
+
