@@ -6,12 +6,12 @@ const configuration = new Configuration({ organization: global.openai_org_id, ap
 const openaiii = new OpenAIApi(configuration);
 let handler = async (m, { conn, text, usedPrefix, command }) => {
 if (usedPrefix == 'a' || usedPrefix == 'A') return    
-if (!text) return conn.reply(m.chat, `*🎌 Ingrese una petición*\n\nEjemplo, !ia Pasos para crear una página`, m, fake, )
+if (!text) return conn.reply(m.chat, `*😎 Ingrese una petición*\n\nEjemplo, !ia Pasos para crear una web`, m, fake, )
 
 try {
 
 conn.sendPresenceUpdate('composing', m.chat)  
-let syms = `Eres un asistente y tu nombre es CuriosityBot-MD, el nombre de tu dueño es Azami`
+let syms = `Eres un asistente y tu nombre es onyx bot, el nombre de tu dueño es kenn`
 let res = await gpt.ChatGpt(text, syms)
 await m.reply(res.text)
 } catch {
