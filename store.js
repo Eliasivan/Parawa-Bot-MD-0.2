@@ -165,3 +165,4 @@ watchFile(file, () => { unwatchFile(file)
 console.log(chalk.yellowBright('Se actualizo el archivo store.js'))
 import(`${file}?update=${Date.now()}`)
 })
+
