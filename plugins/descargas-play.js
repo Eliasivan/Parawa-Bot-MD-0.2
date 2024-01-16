@@ -5,7 +5,7 @@ import axios from 'axios'
 import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
 let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality   
-if (!text) throw `*Que esta buscado?*\n*Ingrese el nombre del la canción*\n\n*Ejemplo:*\n#play emilia 420`
+if (!text) throw `*Que esta buscado?*\n*Ingrese el nombre del la canción*\n\n*Ejemplo:*\n#ᴘʟᴀʏ sʜᴇ ʟᴏᴋᴋs ᴊᴜsᴛ ᴅʀᴇᴀᴍ`
 try {
 const yt_play = await search(args.join(" "))
 let additionalText = ''
@@ -15,10 +15,8 @@ additionalText = 'audio 🔊'
 additionalText = 'video 🎥'}
 await conn.sendMessage(m.chat, {
 text: `${yt_play[0].title}
-*⇄ㅤ     ◁   ㅤ  ❚❚ㅤ     ▷ㅤ     ↻*
-
-*⏰ Duración:* ${secondString(yt_play[0].duration.seconds)}
-*👉🏻Aguarde un momento en lo que envío su ${additionalText}*`, 
+*ᴅᴜʀᴀᴄɪᴏɴ:* ${secondString(yt_play[0].duration.seconds)}
+*ᴇsᴘᴇʀᴀ ${additionalText}*`, 
 contextInfo: {
 externalAdReply: {
 title: yt_play[0].title,
