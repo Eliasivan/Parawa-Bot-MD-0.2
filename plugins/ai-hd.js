@@ -5,7 +5,7 @@ var handler = async (m, { conn, usedPrefix, command }) => {
 
 conn.hdr = conn.hdr ? conn.hdr : {}
 if (m.sender in conn.hdr)
-return conn.reply(m.chat, `*🏴 Todavía hay una solicitud en proceso, sea paciente*`, m, fake, )
+return conn.reply(m.chat, `*Todavía hay una solicitud en proceso, sea paciente*`, m, fake, )
 
 let q = m.quoted ? m.quoted : m
 let mime = (q.msg || q).mimetype || q.mediaType || ""
@@ -17,18 +17,18 @@ if (!/image\/(jpe?g|png|mp4)/.test(mime))
 return conn.reply(m.chat, `*🚩 Mímica ${mime} no soportada*`, m, fake, )
 else conn.hdr[m.sender] = true
 
-conn.reply(m.chat, '⏰ Espere un momento', m, fake, )
+conn.reply(m.chat, 'Espere un momento', m, fake, )
 let img = await q.download?.()
 
 let error
 try {
 const This = await processing(img, "enlace")
-conn.sendFile(m.chat, This, '', '🧃 *Toma tu foto*\n\n' + cred.toString('utf-8'), m)
+conn.sendFile(m.chat, This, '', '🦆 *Toma tu foto*\n\n' + cred.toString('utf-8'), m)
 } catch (er) {
 error = true
 } finally {
 if (error) {
-return conn.reply(m.chat, `*🚩 Ocurrió un fallo*`, m, fake, )
+return conn.reply(m.chat, `*Ocurrió un fallo*`, m, fake, )
 }
 delete conn.hdr[m.sender]
 }}
