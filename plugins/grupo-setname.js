@@ -1,6 +1,6 @@
 var handler = async (m, { conn, text, isROwner, isOwner }) => {
 
-if (!text) return conn.reply(m.chat, '🎌 *Ingrese el nuevo nombre del grupo*\n\nEjmplo, !setname Curiosity', m, fake, )
+if (!text) return conn.reply(m.chat, '🎌 *Ingrese el nuevo nombre del grupo*\n\nEjmplo, !setname onyx', m, fake, )
 await conn.groupUpdateSubject(m.chat, text)
 conn.reply(m.chat, `🚩 ${text ? `${text} *es el nuevo nombre de este grupo*` : '*No pusieron un nombre*'}`, m, fake, )
  
