@@ -4,52 +4,49 @@ import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 
 let tags = {
-'info': 'I N F O R M A C I Ó N ',
-'grupo': 'G R U P O S',
-'juegos': 'J U E G O S',
-'descargas': ' D E S C A R G A S',
-'jadibot': 'J A D I B O T', 
-'nable': 'E N A B L E / D I S A B L E', 
-'internet': 'B U S C A D O R E S',
-'transformador': 'C O N V E R T I D O R E S', 
-'sticker': 'S T I C K E R',
-'rg': 'R P G',
-'audio': 'A U D I O S   E F E C T O S', 
-'implementos': 'H E R R A M I E N T A S', 
-'anime': 'A N I M E', 
-'nsfw': 'N S F W +18', 
-'owner': 'O W N E R',
-'ai': 'I A',
+'info': '𝗜𝗡𝗙𝗢',
+'grupo': '𝗚𝗥𝗨𝗣𝗢𝗦',
+'juegos': '𝗝𝗨𝗘𝗚𝗢𝗦',
+'descargas': '𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦',
+'jadibot': '𝗝𝗔𝗗𝗜𝗕𝗢𝗧', 
+'nable': '𝗘𝗡𝗔𝗕𝗟𝗘', 
+'internet': '𝗕𝗨𝗦𝗖𝗔𝗗𝗢𝗥𝗘𝗦',
+'transformador': '𝗖𝗢𝗡𝗩𝗘𝗥𝗧𝗜𝗗𝗢𝗥', 
+'sticker': '𝗦𝗧𝗜𝗖𝗞𝗘𝗥',
+'rg': '𝗥𝗚𝗣',
+'audio': '𝗔𝗨𝗗𝗜𝗢𝗦', 
+'implementos': '𝗛𝗘𝗥𝗥𝗔𝗠𝗜𝗘𝗡𝗧𝗔𝗦', 
+'anime': '𝗔𝗡𝗜𝗠𝗘', 
+'nsfw': '𝗡𝗦𝗙𝗪', 
+'owner': '𝗞𝗘𝗡𝗡',
+'ai': '𝗜𝗔',
 }
 const defaultMenu = {
-before: `╭━━━〔 U S U A R I O 〕━━━◉
-┃╭──────────────
-┃┃ *Nombre:* %name
-┃┃ *Limite:* %diamond
-┃┃ *Nivel:* %level
-┃┃ *Rango:* %role
-┃┃ *Exp:* %exp
-┃╰──────────────
-├━━━━━━━━━━━━━━━◉
-┃
-├━━━〔 I N F O 〕━━━◉
-┃╭──────────────
-┃┃ *Creador:* 𝗞𝗘𝗡𝗡
-┃┃ *Tiempo Activo:* %muptime
-┃┃ *Registrados:* %rtotalreg de %totalreg usuarios
-┃╰────────────── 
-├━━━━━━━━━━━━━━━◉
-┃
-├━━━〔 H O Y 〕━━━◉
-┃╭──────────────
-┃┃ *Fecha:* %date
-┃╰──────────────
-╰━━━━━━━━━━━━━━◉
+before: `  𝗨𝗦𝗨𝗔𝗥𝗜𝗢 
+╭━═┅═━––––––๑
+┃ *Nombre:* %name
+┃ *Limite:* %diamond
+┃ *Nivel:* %level
+┃ *Rango:* %role
+┃ *Exp:* %exp
+╰━═┅═━––––––๑
+
+  𝗜𝗡𝗙𝗢
+╭━═┅═━––––––๑
+┃ *Creador:* 𝗞𝗘𝗡𝗡
+┃ *Tiempo Activo:* %muptime
+┃ *Registrados:* %rtotalreg de %totalreg usuarios
+╰━═┅═━––––––๑
+
+  𝗛𝗢𝗬
+╭━═┅═━––––––๑
+┃ *Fecha:* %date
+╰━═┅═━––––––๑
 %readmore`.trimStart(),
 
-header: '╭━━━〔 %category 〕━━━◉\n┃╭───────────',
+header: '╭┅═┅═〔 %category 〕━═┅═━\n┃╭━═┅═━━═┅═━═',
 body: '┃┃  %cmd',
-footer: '┃╰───────────\n╰━━━━━━━━━━━━━━◉\n',
+footer: '┃╰━═┅═━━═┅═━═\n╰━═┅═━━═┅═━━═┅═━\n',
 after: `
 `,
 }
@@ -182,4 +179,5 @@ let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
 let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
 return [d, 'd ', h, 'h ', m, 'm '].map(v => v.toString().padStart(2, 0)).join('')
 }
+  
   
