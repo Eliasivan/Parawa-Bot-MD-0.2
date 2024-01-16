@@ -28,11 +28,11 @@ var img2 = 'https://telegra.ph/file/876eedf950e9629f958cd.jpg'
 global.sityImg = [img, img1, img2, img3, img4, img5, img6]
 
 //Enlaces
-global.yt = 'https://www.youtube.com/onyx'
-global.ig = 'https://instagram.com/onyx'
-global.md = 'https://github.com/kenn/onyx'
-global.paypal = 'https://paypal.me/onyx'
-global.git = 'https://github.com/kennn'
+global.yt = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v'
+global.ig = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v'
+global.md = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v'
+global.paypal = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v'
+global.git = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v'
 global.nn = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v' //Grupo ofc
 global.nnn = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v' //Curiosity global
 global.nnnn = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v' //colaboración multi bots
@@ -54,15 +54,15 @@ global.jadibts = join(__dirname, 'jadibts/')
 global.raiz = './storage/logos/Menu1.jpg'
 
 //Reacciones
-global.rwait = '⏰'
+global.rwait = '🤭'
 global.done = '✅'
 global.error = '❌'
 
 //Cargando
-global.wait = '*■□□□□ 20%*'
-global.waitt = '*■■■□□ 60%*'
-global.waittt = '*■■■■□ 90%*'
-global.waitttt = '*■■■■■ 100%*'
+global.wait = '*20%*'
+global.waitt = '*60%*'
+global.waittt = '*90%*'
+global.waitttt = '*100%*'
 
 //fake
 global.fsizedoc = '999999'
@@ -165,4 +165,3 @@ watchFile(file, () => { unwatchFile(file)
 console.log(chalk.yellowBright('Se actualizo el archivo store.js'))
 import(`${file}?update=${Date.now()}`)
 })
-
