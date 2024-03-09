@@ -18,7 +18,7 @@ let tags = {
 'implementos': '𝗛𝗘𝗥𝗥𝗔𝗠𝗜𝗘𝗡𝗧𝗔𝗦', 
 'anime': '𝗔𝗡𝗜𝗠𝗘', 
 'nsfw': '𝗡𝗦𝗙𝗪', 
-'owner': '𝗞𝗘𝗡𝗡',
+'owner': 'Ivan',
 'ai': '𝗜𝗔',
 }
 const defaultMenu = {
