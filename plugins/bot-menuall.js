@@ -33,7 +33,7 @@ before: `  𝗨𝗦𝗨𝗔𝗥𝗜𝗢
 
   𝗜𝗡𝗙𝗢
 ╭━═┅═━––––––๑
-┃ *Creador:* 𝗞𝗘𝗡𝗡
+┃ *Creador:* Ivan
 ┃ *Tiempo Activo:* %muptime
 ┃ *Registrados:* %rtotalreg de %totalreg usuarios
 ╰━═┅═━––––––๑
