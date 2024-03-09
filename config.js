@@ -23,7 +23,7 @@ global.cb = 'Parawa-Bot'
 
 global.vs = 'V2 • 1.0.5'
 global.library = 'Baileys'
-global.baileys = '@whiskeysockets/baileys'
+global.baileys = 'ivan'
 global.lenguaje = 'Español'
 global.menudi = ['⛶','❏','⫹⫺']
 global.dev = 'Ivan'
