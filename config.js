@@ -14,12 +14,12 @@ global.suittag = ['5214531287294']
 global.mods = []
 global.prems = []
 
-global.packname = '𝗢𝗡𝗬𝗫 𝗕𝗢𝗧'
-global.author = '𝗕𝗬 𝗞𝗘𝗡𝗡'
-global.wm = '𝗞𝗘𝗡𝗡'
-global.wm2 = '𝗢𝗡𝗬𝗫 𝗕𝗬 𝗞𝗘𝗡𝗡'
-global.azami = '𝗞𝗘𝗡𝗡'
-global.cb = '𝗢𝗡𝗬𝗫'
+global.packname = 'Parawa-Bot-MD-2.0'
+global.author = 'Ivan'
+global.wm = 'Ivan'
+global.wm2 = 'Parawa-Bot-MD-2.0 Ivan'
+global.azami = 'Ivan'
+global.cb = 'Parawa-Bot'
 
 global.vs = 'V2 • 1.0.5'
 global.library = 'Baileys'
