@@ -4,10 +4,10 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 let str = `*「 🌟 DONAR 🌟 」*
 ---------------------
 💙 *PAYPAL*
-🩵 *${paypal}*
+🩵 *${No tengo}*
 ---------------------
 👑 *Creador del bot*
-💬 wa.me/527294888993`
+💬 wa.me/595992809980`
 
 await conn.sendFile(m.chat, media, 'Curiosity.jpg', str, fkontak)}
 handler.tags = ['main']
