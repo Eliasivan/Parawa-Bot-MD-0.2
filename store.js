@@ -27,20 +27,7 @@ var img2 = 'https://telegra.ph/file/876eedf950e9629f958cd.jpg'
 
 global.sityImg = [img, img1, img2, img3, img4, img5, img6]
 
-//Enlaces
-global.yt = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v'
-global.ig = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v'
-global.md = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v'
-global.paypal = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v'
-global.git = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v'
-global.nn = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v' //Grupo ofc
-global.nnn = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v' //Curiosity global
-global.nnnn = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v' //colaboración multi bots
-global.nnnnn = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v' //Colaboración CuriosityBot - NovaBot 
-global.nnnnnn = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v' //enlace curiosity
-global.channel = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v'
-global.email = 'kennby@gmail.com'
-global.linkSity = [yt, ig, md, paypal, git, channel]
+
 
 //Raíz
 global.raiz = './'
