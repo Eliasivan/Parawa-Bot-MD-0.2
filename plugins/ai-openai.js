@@ -17,7 +17,7 @@ conn.sendPresenceUpdate('composing', m.chat)
 // Traducir de indonesio a español
 const translation = await translate(text, { from: 'id', to: 'es' })
 const indonesianText = translation.text
-let syms = `Eres un asistente y tu nombre es onyx bot, el nombre de tu dueño es kenn`
+let syms = `Eres un asistente y tu nombre es Parawa bot, el nombre de tu dueño es ivan`
 let res = await openaiii.ChatGpt(indonesianText, syms)
 
 await m.reply(res.text)
