@@ -1,6 +1,6 @@
 import fs from "fs"
 let handler = async (m, { conn, command }) => {
-let estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "En breve" } : {}) }, message: {orderMessage: { itemCount : 2023, status: 1, surface : 1, message: 'Parawa', orderTitle: 'Bang', thumbnail: fs.readFileSync('./storage/logos/Menu2.jpg'), sellerJid: '0@s.whatsapp.net'}}}
+let estilo = { key: {  fromMe: false, participant: ``, ...(m.chat ? { remoteJid: "En breve" } : {}) }, message: {orderMessage: { itemCount : 2023, status: 1, surface : 1, message: 'Parawa', orderTitle: 'Bang', thumbnail: fs.readFileSync('./storage/logos/Menu2.jpg'), sellerJid: ''}}}
 let foto = './storage/imagenes/grupos.jpg'
 let texto = `*${nn}*`
 
